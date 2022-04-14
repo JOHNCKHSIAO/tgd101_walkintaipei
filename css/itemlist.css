@@ -1,0 +1,111 @@
+.itemlist-header{
+    width:1440px;
+    box-sizing: border-box;
+    padding:5px;
+    margin:0 auto;
+    /* border:1px solid blue; */
+    background-color: #E0E0E0;
+    position:relative;
+
+}
+h1{
+    font-size: 36px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom:10px;
+    width:160px;
+    height:45px;
+    border-bottom:5px solid #FBBC04;
+
+}
+.itemlist-main{
+    box-sizing: border-box;
+    padding:5px;
+    width:1440px;
+    margin:0 auto;
+    background-color:#E0E0E0;
+    /* border:1px solid red; */
+    position:relative;
+
+}
+.itemlist-top-ol{
+    width:1320px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+    /* border:1px solid blue; */
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+
+}
+.itemlist-top-ol li{
+    /* border:1px solid #C4C4C4; */
+    background-color: #fff;
+    border-radius: 5px;
+}
+.itemlist-top-ol a{
+    text-decoration: none;
+}
+.itemlist-top-ol img{
+    width:400px;
+    height:300px;
+    
+}
+.itemlist-top-ol li:hover{
+    transform:scale(1.04);
+}
+.itemlist-top-ol p{
+    padding:10px;
+    font-size: 20px;
+    line-height: 2;
+    color:black;
+    
+}
+.itemlist-top-ol div{
+    box-sizing: border-box;
+    font-size: 20px;
+    color:black;
+    padding-right:25px;
+    text-align: end;
+
+}
+
+.itemlist-bottom-ol{
+    width:1320px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+    /* border:1px solid blue;
+    margin-top: 10px; */
+    margin-bottom: 60px;
+
+}
+.itemlist-bottom-ol li{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.itemlist-bottom-ol li:hover{
+    transform:scale(1.04);
+}
+.itemlist-bottom-ol img{
+    width:400px;
+    height:300px;
+}
+.itemlist-bottom-ol p{
+    padding:10px;
+    font-size: 20px;
+    line-height: 2;
+    color:black;
+}
+.itemlist-bottom-ol a{
+    text-decoration: none;
+}
+.itemlist-bottom-ol div{
+    box-sizing: border-box;
+    font-size: 20px;
+    color:black;
+    padding-right:25px;
+    text-align: end;
+}

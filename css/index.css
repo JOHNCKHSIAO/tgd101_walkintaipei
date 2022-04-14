@@ -457,6 +457,7 @@
     margin:0 auto;
     /* border:1ps solid red; */
     display:flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     background: #D6D2C5;
