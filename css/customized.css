@@ -55,6 +55,7 @@ background: linear-gradient(#e66465, #9198e5);
     height:300px;
     border-radius: 50%;
     background-image: url("../image/customized/top_1.jpg");
+    background-size: cover;
     margin:20px;
 
 }
@@ -63,6 +64,7 @@ background: linear-gradient(#e66465, #9198e5);
     height:300px;
     border-radius: 50%;
     background-image: url("../image/customized/top_2.jpg");
+    background-size: cover;
     margin:20px;
 
 }
@@ -71,6 +73,7 @@ background: linear-gradient(#e66465, #9198e5);
     height:300px;
     border-radius: 50%;
     background-image: url("../image/customized/top_3.jpg");
+    background-size: cover;
     margin:20px;
 
 }
@@ -79,6 +82,7 @@ background: linear-gradient(#e66465, #9198e5);
     height:300px;
     border-radius: 50%;
     background-image: url("../image/customized/top_4.jpg");
+    background-size: cover;
     margin:20px;
 
 }

@@ -11,7 +11,7 @@
     width:100%;
     height:600px;
     background-image: url('../image/index/slide1.jpg');
-    background-position:top -40px;
+    background-size: cover;
     position: relative;
     
 }
@@ -138,6 +138,7 @@
     width:360px;
     height:300px;
     background-image: url("../image/index/newactivity1.jpg");
+    background-size: cover;
     position:relative;
     
 }
@@ -147,6 +148,7 @@
     width:360px;
     height:300px;
     background-image: url("../image/index/newactivity2.jpg");
+    background-size: cover;
     position:relative;
     
 }
@@ -156,6 +158,7 @@
     width:360px;
     height:300px;
     background-image: url("../image/index/newactivity3.jpg");
+    background-size: cover;
     position:relative;
     
 }
@@ -225,6 +228,7 @@
     margin:25px;
     border-radius: 50%;
     background-image: url("../image/index/indexcus1.jpg");
+    background-size: cover;
 }
 .customizedpic-2{
     /* border:1px solid red; */
@@ -233,6 +237,7 @@
     margin:25px;
     border-radius: 50%;
     background-image: url("../image/index/indexcus2.jpg");
+    background-size: cover;
 
 }
 .customizedpic-3{
@@ -242,6 +247,7 @@
     margin:25px;
     border-radius: 50%;
     background-image: url("../image/index/indexcus3.jpg");
+    background-size: cover;
 
 }
 .customized-ol h3{

@@ -74,16 +74,17 @@ body{
     display:none;
    
 
-}
+} 
 /*click觸發的搜尋bar*/
 .searchbar{
+    border:1px solid black;
 
 }
 .searchbar input{
-
+    /* display:inline-block; */
 }
 .searchbar button{
-
+    /* display:inline-block; */
 }
 
 /*footer*/
