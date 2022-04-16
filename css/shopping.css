@@ -1,0 +1,213 @@
+.shopping-header{
+    width:1440px;
+    margin:0 auto;
+    background-color: #E0E0E0;
+    border:1px solid blue;
+}
+.navigation{
+    border:1px solid blue;
+    margin-left:50px;
+    margin-top: 10px;
+
+}
+.navigation a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    letter-spacing:5px;
+}
+
+h1{
+    font-size: 36px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    width:180px;
+    height:45px;
+    border-bottom:5px solid #FBBC04;
+}
+.shopping-main{
+    box-sizing: border-box;
+    padding:5px;
+    width:1440px;
+    margin:0 auto;
+    background-color:#E0E0E0;
+    border:1px solid red;
+}
+
+.form-container{
+    display: flex;
+    border:1px solid blue;
+    border-radius: 5px;
+    background-color: #fff;
+    width:1200px;
+    margin:0 auto;
+    padding:5px;
+    box-sizing: border-box;
+
+}
+.selected{
+    box-sizing: border-box;
+    width:340px;
+    padding:20px;
+}
+.selected img{
+    width:300px;
+    
+}
+.selected p{
+    
+}
+.shopping-form{ 
+
+}
+.time{
+    width:860px;
+    border:1px solid blue;
+    margin-top:20px;
+
+}
+.time label{
+    font-size: 20px;
+}
+.time select{
+    display:inline-block;
+    font-size: 20px;
+    height:30px;
+    margin-left: 30px;
+    border:0.5px solid grey;
+}
+.time option{
+    font-size: 20px;
+}
+
+.number{
+    width:860px;
+    border:1px solid blue;
+    /* margin-top:20px; */
+
+}
+.adult-number{
+    border:1px solid yellow;
+    margin-top:20px;
+
+
+}
+.adult-number span{
+    display:inline-block;
+    font-size: 20px;
+    height:30px;
+    
+}
+/* .adult_number:nth-child(1){
+    display:inline-block; 
+    margin-left:50px;
+    margin-right:10px;
+    color:red;
+} */
+
+.adult-number button{
+    display:inline-block;
+    border:none;
+    background-color:#fff;
+    font-size: 24px;
+
+}
+
+.adult-number input{
+
+}
+
+.child-number{
+    border:1px solid yellow;
+    margin-top:20px;
+}
+.child-number span{
+    display:inline-block;
+    font-size: 20px;
+    height:30px;
+    
+}
+/* .child-number:nth-child(2){
+    margin-left: 130px;
+    margin-right:10px;
+    color:red;
+} */
+.child-number button{
+    display:inline-block;
+    border:none;
+    background-color:#fff;
+    font-size: 24px;
+}
+.child-number input{
+    
+}
+
+.diet-habit{
+    border:1px solid yellow;
+    margin-top:20px;
+    font-size: 20px;
+}
+.diet-habit span{
+margin-right: 30px;
+}
+
+.diet-habit label{
+
+}
+
+.diet-habit input{
+    width:40px;
+}
+.diet-habit input[type=text]{
+    width:200px;
+}
+
+.info{
+    border:1px solid yellow;
+    margin-top:20px;
+    font-size: 20px;
+
+}
+
+.info label{
+    
+}
+.info input{
+    
+}
+.textarea{
+    border:1px solid yellow;
+    margin-top:20px;
+    font-size: 20px;
+
+}
+.textarea label{
+    
+}
+.textarea textarea{
+    
+}
+
+.confirm{
+
+}
+.select-pay{
+
+}
+.select-pay label{
+    
+}
+.select-pay input{
+    
+}
+.price{
+
+}
+.price div{
+    
+}
+.price button{
+    
+}

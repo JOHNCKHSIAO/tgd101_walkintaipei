@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/shopping.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
     </style>
@@ -33,6 +34,89 @@
            
         </ol>
     </nav>
+    <header class="shopping-header">
+        <div class="navigation"><a href="">所有行程</a> <a href="">>貓空健行半日遊></a><a href="">我的行程</a> </div>
+        <h1>我的行程</h1>
+    </header>
+    <main class="shopping-main">
+        <div class="form-container">
+            <div class="selected">
+                <img src="./image/pay/pic1.jpg" alt="">
+                <p>靜遊貓空半日健行，<br>
+                    附午餐<br>
+                    回程搭乘貓空纜車<br>
+                    時間: 早上08:00-12:00<br>
+                </p>
+            </div>
+            <form action="#" class="shopping-form">
+                <div class="time">        
+                    <label for="mk22-time">選擇梯次</label>
+                        <select name="mk22-time" id="mk22-time">
+                            <option value="">請選擇梯次</option>
+                            <option value="20220416sat">2022年4月16日(六)</option>
+                            <option value="20220417sun">2022年4月17日(日)</option>
+                            <option value="20220423sat">2022年4月23日(六)</option>
+                            <option value="20220424sun">2022年4月24日(日)</option>
+                            <option value="20220430sat">2022年4月30日(六)</option>
+                            <option value="20220501sun">2022年5月1日(一)</option>
+                        </select>
+                       
+                </div>
+                <div class="number">
+                    <!-- <span>報名人數</span> -->
+                    <div class="adult-number">
+                        <span>成人(每人000TWD)</span>
+                        <button id="adult-number-minus-btn"><i class="fa-solid fa-minus"></i></button>
+                        <input type="text" name="mk22-adult-number" id="mk22-adult-number">
+                        <button id="adult-number-plus-btn"><i class="fa-solid fa-plus"></i></button>
+                        <span>人</span>
+                    </div>
+                    <div class="child-number">
+                        <span>兒童(每人000TWD)</span>
+                        <button id="child-number-minus-btn"><i class="fa-solid fa-minus"></i></button>
+                        <input type="text" name="mk22-child-number" id="mk22-child-number">
+                        <button id="child-number-minus-btn"><i class="fa-solid fa-plus"></i></button>
+                        <span>人</span>
+                    </div>
+
+                </div>
+                <div class="diet-habit">
+                    <span>飲食習慣</span>
+                    <label for="mk22-diet-habit-veg">素食</label>
+                    <input type="number" id="mk22-diet-habit-veg" name="mk22-diet-habit-veg">人
+                    <label for="mk22-diet-habit-meat">葷食</label>
+                    <input type="number" id="mk22-diet-habit-meat" name="mk22-diet-habit-meat">人
+                    <label for="diet-habit-note">備註</label>
+                    <input type="text" id="diet-habit-note" name="diet-habit-note">
+                </div>
+                <div class="info">
+                    <label for="mk22-name">姓名</label>
+                    <input type="text" name="mk22-name" id="mk22-name">
+                    <label for="mk22-phonenumber">連絡電話</label>
+                    <input type="tel" name="mk22-phonenumber" id="mk22-phonenumber"
+                    pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required placeholder="09xx-xxx-xxx">
+                </div>
+                <div class="textarea">
+                    <label for="mk22-textarea">備註</label>
+                    <textarea name="mk22-textarea" id="mk22-textarea"></textarea>
+                </div>
+                
+            </form>
+        </div>
+        <div class="confirm">
+            <div class="select-pay"> 
+                <label for="creditcard">信用卡結帳</label>
+                <input type="radio" name="creditcard" id="creditcard" >
+                <label for="atm">信用卡結帳</label>
+                <input type="radio" name="atm" id="atm" >
+            </div>  
+            <div class="price">
+                <div>消費金額</div>
+                <div>NTD0000元</div>
+                <button id="confirm-btn">確認結帳</button>
+            </div>
+        </div>
+    </main>
     <footer class="footer">
         <a href="" class="footer-logo-a"><img src="./image/index/logo_bottom_white.svg" alt="" class="footer-logo-img"></a>
         <ol class="footer-ol">

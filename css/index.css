@@ -95,10 +95,10 @@
     /*色bar裝飾*/
     content:"";
     display:block;
-    height:120px;
+    height:100px;
     border-left: 5px solid #FBBC04;
     position:absolute;
-    top:87px;
+    top:97px;
     left:21px;  
 }
 .news-title h2{
@@ -140,6 +140,7 @@
     background-image: url("../image/index/newactivity1.jpg");
     background-size: cover;
     position:relative;
+    border-radius: 5px;
     
 }
 .activity2{
@@ -150,6 +151,7 @@
     background-image: url("../image/index/newactivity2.jpg");
     background-size: cover;
     position:relative;
+    border-radius: 5px;
     
 }
 .activity3{
@@ -160,6 +162,7 @@
     background-image: url("../image/index/newactivity3.jpg");
     background-size: cover;
     position:relative;
+    border-radius: 5px;
     
 }
 .news-ol p{
@@ -187,54 +190,51 @@
 }
 .customized h2{
     font-size: 36px;
-    width:150px;
-    margin:10px auto;
+    text-align:center;
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    width:154px;
+    height:46px;
+    border-bottom:5px solid #FBBC04;
+
     
 }
-.customized h2::before{
-    /*客製旅遊標題的底線裝飾*/
-    content:"";
-    display:block;
-    width:150px;
-    border-bottom:5px solid #FBBC04;
-    position:relative;
-    top:50px;
-}
+
 .customized>p{
     margin:40px auto 20px auto;
     text-align: center;
+    color:#61300E;
     font-size: 24px;
 }
 /*客製旅遊的清單*/
 .customized-ol{
-    width:1140px;
+    width:1080px;
     margin:0 auto;
     display:flex;
     justify-content: space-between;
 
 }
 .customized-ol li{
-    background-color: #fff;
-    width:350px;
+    width:340px;
     height:500px;
-    border-radius:5px;
-
+    /* border:1px solid black; */
+    position:relative;
 }
 /*客製旅遊的小圖*/
 .customizedpic-1{
     /* border:1px solid red; */
     height:300px;
     width:300px;
-    margin:25px;
     border-radius: 50%;
     background-image: url("../image/index/indexcus1.jpg");
     background-size: cover;
 }
+
 .customizedpic-2{
     /* border:1px solid red; */
     height:300px;
     width:300px;
-    margin:25px;
     border-radius: 50%;
     background-image: url("../image/index/indexcus2.jpg");
     background-size: cover;
@@ -244,31 +244,56 @@
     /* border:1px solid red; */
     height:300px;
     width:300px;
-    margin:25px;
     border-radius: 50%;
     background-image: url("../image/index/indexcus3.jpg");
     background-size: cover;
 
 }
+/*克製旅行小圖的外框*/
+.customizedpic-outline{
+    box-sizing: border-box;
+    width:340px;
+    height:340px;
+    padding:20px;
+    border-radius: 50%;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
 .customized-ol h3{
+    margin-top: 20px;
     font-size:24px;
     text-align:center;
-    color:#FBBC04;
-
+    color:black;
 
 }
 .customized-ol h3::before{
-    /*小標題的底線*/
-    content:"|";
-    
-    color:#FBBC04;
-
-
+    /* 小標題的底線 */
+    content:"";
+    border-left:5px solid #FBBC04;
+    height:30px;
+    display:block;
+    position:absolute;
+    top:358px;
+    left:100px;
 }
+.customized-ol .customh3::before{
+     content:"";
+    border-left:5px solid #FBBC04;
+    height:30px;
+    display:block;
+    position:absolute;
+    top:358px;
+    left:88px; 
+}
+
+
 .customized-ol p{
-    width:350px;
+    width:315px;
+    text-align: center;
     margin-left: 20px;
     font-size: 20px;
+    color:#61300E;
+    margin:0 auto;
     margin-top: 20px;
     line-height:2;
 
@@ -283,11 +308,11 @@
     font-size:24px;
     line-height:2.5;
     text-align: center;
-    color:blue;
+    color:#fff;
     border-radius: 5px;
 }
 .customized a:hover{
-    transform:scale(1.25);
+    transform:scale(1.05);
 }
 .airplane-icon{
     width:135px;
@@ -307,7 +332,7 @@
 }
     
 .ourclient{
-    width:100%;
+    
     /* border:1px solid green; */
 }
 .ourclient h2{
@@ -316,8 +341,8 @@
     margin:0 auto;
     margin-top:40px;
     margin-bottom:40px;
-    width:180px;
-    height:45px;
+    width:190px;
+    height:46px;
     border-bottom:5px solid #FBBC04;
 }
 .ourclient:before{
@@ -358,16 +383,15 @@
 
 }
 .ourclient-ol h3{
-    font-size:32px;
+    font-size:30px;
     border-left:5px solid #FBBC04;
     text-align: center;
 
 }
-.ourclient-ol h3:before{
-/*小標題的線段裝飾*/
-}
+
 .ourclient-ol p{
     font-size: 20px;
+    color:#61300E;
     width:300px;
     /* margin:0 auto; */
     /* border:1px solid black; */
@@ -386,7 +410,6 @@
 
 /*下面是我們的故事*/
 .ourstory{
-    width:100%;
     /* border:1px solid green; */
     position:relative;
     margin-bottom: 50px;
@@ -399,7 +422,7 @@
     margin:0 auto;
     margin-top:100px;
     margin-bottom:40px;
-    width:180px;
+    width:190px;
     height:45px;
     border-bottom:5px solid #FBBC04;
 }
@@ -446,11 +469,10 @@
     text-indent: 30px;
     margin-bottom: 10px;
 }
-.ourstory-upper h3::before{
-    
-}
+
 .ourstory-upper p{
     font-size: 18px;
+    color:#61300E;
     line-height: 2;
     margin-bottom: 50px;
     
@@ -492,11 +514,9 @@
     text-indent: 30px;
     margin-bottom: 10px;
 }
-.ourstory-bottom h3::before{
-    
-}
 .ourstory-bottom p{
     font-size: 18px;
+    color:#61300E;
     line-height: 2;
     margin-bottom: 50px;
 }

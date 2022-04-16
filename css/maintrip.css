@@ -62,8 +62,8 @@ h1{
     margin:0 auto;
     margin-top:60px;
     margin-bottom:40px;
-    width:450px;
-    height:45px;
+    width:400px;
+    height:46px;
     border-bottom:5px solid #FBBC04;
 }
 .section{
@@ -83,18 +83,20 @@ h1{
     height:450px;
     display:flex;
     box-shadow: 10px 5px 5px grey;
+   
     
 }
 .postcard-left{
-    width:155px;
+    width:130px;
     height:450px;
-    border-right:5px dashed grey;
+    border-right:5px dashed #D3D3D3;
 }
 
 .postcard-left img{
     /*郵票的圖*/
     display:block;
-    margin:10px;
+    margin:0 auto;
+    margin-top: 20px;
     width:80px;
     height:80px;
     
@@ -105,17 +107,21 @@ h1{
 }
 .postcard-right p{
     box-sizing: border-box;
-    width:500px;
+    width:430px;
     padding:5px;
     font-size: 24px;
+    color:#61300E;
     height:75px;
-    border-bottom: 3px solid grey;
+    /* border:1px solid red; */
+    border-bottom: 3px solid #D3D3D3;
     vertical-align: bottom;
     
 }
 .postcard-right span{
     display:block;
+    width:420px;
     margin-top:30px;
+    /* border:1px solid blue; */
     
 }
 .postcard-pic{
@@ -140,8 +146,8 @@ h1{
     margin:0 auto;
     margin-top:60px;
     margin-bottom:40px;
-    width:200px;
-    height:45px;
+    width:154px;
+    height:46px;
     border-bottom:5px solid #FBBC04;
 }
 .information-left{
