@@ -114,6 +114,7 @@ body{
     /*logoimg*/
     display:block;
     /* width:200px; */
+    cursor: pointer;
     
 }
 .footer-logo-a{
@@ -124,9 +125,9 @@ body{
     margin-left: 20px;
 }
 .footer-ol{
-    box-sizing: border-box;
-    /* border:2px solid white; */
-    width:350px;
+    /* box-sizing: border-box;
+    border:2px solid white; */
+    width:250px;
     display:flex;
     justify-content:space-around;
     align-items: center;

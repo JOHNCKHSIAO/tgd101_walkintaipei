@@ -13,9 +13,9 @@ h1{
     text-align:center;
     margin:0 auto;
     margin-top:30px;
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
     width:160px;
-    height:45px;
+    height:46px;
     border-bottom:5px solid #FBBC04;
 
 }
@@ -54,13 +54,21 @@ h1{
     
 }
 .itemlist-top-ol li:hover{
-    transform:scale(1.04);
+    transform:scale(1.05);
+}
+
+.itemlist-top-ol h2{
+    color:black;
+    font-size: 20px;
+    margin-top:10px;
+    margin-left:10px;
+    
 }
 .itemlist-top-ol p{
     padding:10px;
     font-size: 20px;
     line-height: 2;
-    color:black;
+    color:#4A240C;
     
 }
 .itemlist-top-ol div{
@@ -93,11 +101,18 @@ h1{
     width:400px;
     height:300px;
 }
+
+.itemlist-bottom-ol h2{
+    color:black;
+    font-size: 20px;
+    margin-top:10px;
+    margin-left:10px;
+}
 .itemlist-bottom-ol p{
     padding:10px;
     font-size: 20px;
     line-height: 2;
-    color:black;
+    color:#4A240C;
 }
 .itemlist-bottom-ol a{
     text-decoration: none;
