@@ -33,12 +33,13 @@ h1{
 }
 .shopping-main{
     box-sizing: border-box;
-    padding-top:5px;
+    padding:5px 0;
     width:1440px;
     margin:0 auto;
     background-color:#E0E0E0;
     /* border:1px solid red; */
 }
+    
 
 /*表單的容器*/
 .form-container{
@@ -50,29 +51,42 @@ h1{
     margin:0 auto;
     padding:5px;
     box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px grey;
+
 
 }
 /*左側選擇的商品欄位*/
 .selected{
     box-sizing: border-box;
-    /* border:1px dashed grey; */
-    width:340px;
-    padding:20px;
+    /* border-right:1px solid grey; */
+    width:300px;
+    /* height:300px; */
+    margin-right:20px;
+    /* padding:20px; */
   
 }
 .selected img{
     width:300px;
     
 }
+.selected h2{
+    font-size: 22px;
+    line-height: 2;
+    margin-left:10px;
+    margin-bottom: px;
+}
 .selected p{
     font-size: 20px;
     line-height: 2;
+    margin-left:10px;
+    margin-bottom: 10px;
     
 }
 
 /*表單本體*/
 .shopping-form{ 
-    /* border:2px dashed grey; */
+    /* border-left:2px dashed grey; */
 
 }
 
@@ -113,7 +127,7 @@ h1{
     font-size: 20px;
     height:20px;
     margin-right: 40px;
-    vertical-align: center;
+    vertical-align: middle;
     
 }
 
@@ -122,7 +136,7 @@ h1{
     border:none;
     background-color:#fff;
     font-size: 24px;
-    vertical-align:center;
+    vertical-align:middle;
     cursor: pointer;
     color:#4A240C;
 }
@@ -145,7 +159,7 @@ h1{
     font-size: 20px;
     height:20px;
     margin-right: 40px;
-    vertical-align: center;
+    vertical-align: middle;
     
 }
 
@@ -156,6 +170,7 @@ h1{
     font-size: 24px;
     cursor: pointer;
     color:#4A240C;
+    vertical-align: middle;
 
 }
 .child-number input{
@@ -236,12 +251,16 @@ margin-right: 30px;
 }
 
 .confirm{
-    /* border:1px solid red; */
-    width:1200px;
+    /* border-top:2px solid #FBBC04; */
+    width:1000px;
     background-color: #fff;
     margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content:end;
+    border-radius: 5px;;
+    box-shadow: 3px 3px 3px grey;
 }
 .select-pay{
     width:180px;
@@ -310,8 +329,11 @@ margin-right: 30px;
     margin-right: 20px;
    border:none;
    background-color:#FBBC04;
+   color:white;
    width:120px;
    font-size: 24px;
    height:48px;
+   border-radius: 5px;
+   cursor: pointer;
   
 }

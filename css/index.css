@@ -47,9 +47,11 @@
 
 .indexslide h2{
     font-size: 36px;
+    color:grey;
+    text-shadow: 1px 1px  black;
     position:absolute;
-    top:50px;
-    left:30px;
+    top:60px;
+    left:50px;
 
 }
 /*main部分*/

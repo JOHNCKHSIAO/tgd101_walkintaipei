@@ -101,7 +101,7 @@ background: linear-gradient(#e66465, #9198e5);
 }
 .header-text p{
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
     color:#4A240C;
     
 }
@@ -164,12 +164,13 @@ background: linear-gradient(#e66465, #9198e5);
     font-size: 32px;
     border-left:5px solid #FBBC04;
     text-indent: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .main-ol-top p{
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
     color:#4A240C;
+    margin-top: 10px;
     
 }
 .main-ol-top img{
@@ -200,12 +201,13 @@ background: linear-gradient(#e66465, #9198e5);
     font-size: 32px;
     border-left:5px solid #FBBC04;
     text-indent: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 .main-ol-bottom p{
+    margin-top: 10px;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
     margin-bottom: 50px;
     color:#4A240C;
 
@@ -219,10 +221,12 @@ background: linear-gradient(#e66465, #9198e5);
 
 }
 .intro{
+    width:350px;;
+    margin: 0 auto;
     font-size: 20px;
     line-height: 2;
-    text-align: center;
     margin-bottom: 30px;
+    color:#4A240C;
     
 
 }
