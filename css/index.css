@@ -10,10 +10,13 @@
 .indexslide{
     width:100%;
     height:600px;
-    background-image: url('../image/index/slide1.jpg');
+    /* background-image: url('../image/index/slide1.jpg'); */
     background-size: cover;
     position: relative;
     
+}
+.indexslide img{
+    width:100%;
 }
 
 .slide-left-btn{
@@ -45,6 +48,23 @@
     cursor: pointer;
 }
 
+.dots{
+    width:70px;
+    margin:0 auto;
+    position:absolute;
+    top:580px;
+    left:50%; /*還要再調*/
+}
+
+.dot{
+    height:8px;
+    width:8px;
+    border-radius: 50%;
+    background-color:#fff;
+    margin-right:2px;
+    display:inline-block;
+    
+}
 .indexslide h2{
     font-size: 36px;
     color:grey;
@@ -350,18 +370,15 @@
     height:46px;
     border-bottom:5px solid #FBBC04;
 }
-.ourclient:before{
 
-}
 .ourclient-ol{
     box-sizing: border-box;
-    height:350px;
     width:1370px;
     /* border:1px solid red; */
     margin:0 auto;
     margin-top: 20px;
     display:flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
 
 
@@ -371,18 +388,19 @@
     box-sizing: border-box;
     background-color:#D6D2C5;
     /* border:1px solid blue; */
+    margin-bottom: 20px;
     width:670px;
     height:350px;
     padding:10px;
     border-radius:5px;
     display:flex;
     justify-content: space-around;
-    align-items: center;
+   
     
 }
 .ourclient-ol div{
-    /*我們的客戶的文字方塊*/
-    /* border:1px solid red; */
+   
+ /* border:1px solid red; */
     width:300px;
     height:300px;
 
@@ -431,9 +449,7 @@
     height:45px;
     border-bottom:5px solid #FBBC04;
 }
-.ourstory h2:before{
-/*標題底線裝飾*/
-}
+
 .ourstory-icon{
     width:123px;
     height:134px;
@@ -442,86 +458,44 @@
     left:190px;
 
 }
-.ourstory-upper{
-    /*我們的故事上半部分*/
-    box-sizing: border-box;
+.ourstory-div{
+    box-sizing:border-box;
     width:1300px;
-    height:440px;
     margin:0 auto;
     /* border:1ps solid red; */
     display:flex;
-    align-items: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
     justify-content: space-between;
-    background: #D6D2C5;
-    padding:30px;
+    padding:10px 30px;
 
 }
-.ourstory-upper img{
+.ourstory-div img{
     width:600px;
     height:400px;
+    margin-top: 20px;
     display:block;
     border-radius: 5px;   
 }
 
-.ourstory-upper div{
+.ourstory-div>div{
     width:600px;
-    height:400px;
+    height:400px; 
     /* border:1px solid red; */
-}
-.ourstory-upper h3{
+    margin-top: 20px;
+} 
+.ourstory-div h3{
     font-size: 24px;
     border-left:5px solid #FBBC04;
     text-indent: 30px;
     margin-bottom: 10px;
 }
 
-.ourstory-upper p{
+.ourstory-div p{
     font-size: 18px;
     color:#4A240C;
     line-height: 2;
     margin-bottom: 50px;
     
 }
-.ourstory-bottom{
-    /*我們的故事下半部分*/
-    box-sizing: border-box;
-    width:1300px;
-    height:440px;
-    margin:0 auto;
-    /* border:1ps solid red; */
-    display:flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    background: #D6D2C5;
-    padding:30px;
 
-
-}
-.ourstory-bottom img{
-    width:600px;
-    display:block;
-    width:600px;
-    height:400px;
-    display:block; 
-    border-radius: 5px;  
-    
-    
-}
-
-.ourstory-bottom div{
-    width:600px;
-    height:400px;
-}
-.ourstory-bottom h3{
-    font-size: 24px;
-    border-left:5px solid #FBBC04;
-    text-indent: 30px;
-    margin-bottom: 10px;
-}
-.ourstory-bottom p{
-    font-size: 18px;
-    color:#4A240C;
-    line-height: 2;
-    margin-bottom: 50px;
-}

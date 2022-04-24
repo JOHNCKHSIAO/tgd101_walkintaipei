@@ -24,14 +24,15 @@ h1{
     /* border:1px solid red; */
 
 }
-.header-ol-top{
+.header-ol{
     box-sizing: border-box;
-    width:100%;
+    /* width:100%; */
     /* border:1px solid black; */
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-.header-ol-top li{
+.header-ol li{
     box-sizing: border-box;
     width:640px;
     display:flex;
@@ -106,24 +107,6 @@ background: linear-gradient(#e66465, #9198e5);
     
 }
 
-.header-ol-bottom{
-    box-sizing: border-box;
-    width:100%;
-    /* border:1px solid black; */
-    display:flex;
-    padding:30px;
-    justify-content: space-around;
-
-}
-.header-ol-bottom li{
-    box-sizing: border-box;
-    width:640px;
-    display:flex;
-    justify-content:space-between;
-    /* padding:30px; */
-    /* border:1px solid white; */
-
-}
 .customized-main{
     box-sizing: border-box;
     padding:5px;
@@ -145,35 +128,36 @@ background: linear-gradient(#e66465, #9198e5);
     border-bottom:5px solid #FBBC04;
     
 }
-.main-ol-top{
+.main-ol{
     width:1360px;
     margin:0 auto;
     /* border:1px solid yellow; */
     display:flex;
+    flex-wrap: wrap;
     /* justify-content:space-between; */
 
 }
-.main-ol-top li{
+.main-ol li{
     box-sizing: border-box;
     /* border:1px solid white; */
     padding:30px;
     margin-bottom: 50px;
 
 }
-.main-ol-top h3{
+.main-ol h3{
     font-size: 32px;
     border-left:5px solid #FBBC04;
     text-indent: 20px;
     margin-bottom: 20px;
 }
-.main-ol-top p{
+.main-ol p{
     font-size: 20px;
     line-height: 2;
     color:#4A240C;
     margin-top: 10px;
     
 }
-.main-ol-top img{
+.main-ol img{
     display:block;
     width:720px;
     height:450px;
@@ -181,45 +165,7 @@ background: linear-gradient(#e66465, #9198e5);
     box-shadow: 3px 3px 3px grey;
 
 }
-.main-ol-bottom{
-    width:1360px;
-    margin:0 auto;
-    /* border:1px solid yellow; */
-    display:flex;
-    justify-content:end;
 
-}
-.main-ol-bottom li{
-    box-sizing: border-box;
-    /* border:1px solid white; */
-    padding:30px;
-    margin-bottom: 50px;
-
-
-}
-.main-ol-bottom h3{
-    font-size: 32px;
-    border-left:5px solid #FBBC04;
-    text-indent: 20px;
-    margin-bottom: 20px;
-
-}
-.main-ol-bottom p{
-    margin-top: 10px;
-    font-size: 20px;
-    line-height: 2;
-    margin-bottom: 50px;
-    color:#4A240C;
-
-}
-.main-ol-bottom img{
-    display:block;
-    width:720px;
-    height:450px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px grey;
-
-}
 .intro{
     width:350px;;
     margin: 0 auto;

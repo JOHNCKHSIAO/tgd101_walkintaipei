@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index_max1400.css">
+    <link rel="stylesheet" href="./css/index_max1200.css">
+    <link rel="stylesheet" href="./css/index_max992.css">
+    <link rel="stylesheet" href="./css/index_max768.css">
+    <!-- <link rel="stylesheet" href="./css/index_max576.css"> -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
     </style>
@@ -36,12 +41,20 @@
     </nav>
     <header class="index-header">
         
-        <section class="indexslide">
+        <section class="indexslide" id="indexslideid">
+            <img src="./image/index/slide1.jpg" alt="" id="slideimg">
             <!--大圖輪播區-->
-            <h2>旅行，漫步尋訪城市的美好角落</h2>
+            <!-- <h2>旅行，漫步尋訪城市的美好角落</h2> -->
             <button class="slide-left-btn"></button>
             <button class="slide-right-btn"></button>
             <!--輪播圖的箭頭-->
+            <div class="dots">
+                <span class="dot">  </span>
+                <span class="dot">  </span>
+                <span class="dot">  </span>
+                <span class="dot">  </span>
+                <span class="dot">  </span>
+            </div>
 
         </section>
 
@@ -148,9 +161,7 @@
                             </p>
                         </div>
                         <img src="./image/index/ourcus2.jpg" alt="" class="client-pic">
-                    </li>
-                </ol>   
-                <ol class="ourclient-ol">    
+                    </li> 
                     <li>
                         <div>
                             <h3>美國學校張老師</h3>
@@ -177,7 +188,7 @@
             <section class="ourstory"> <!--我們的故事-->
                 <h2>我們的故事</h2>
                 <img src="./image/index/open-book.png" alt="" class="ourstory-icon"> <!--裝飾的icon-->
-                <div class="ourstory-upper">
+                <div class="ourstory-div">
                     <img src="./image/index/ourstory1.jpg" alt="" >
                     <div>
                         <h3>旅途的開始:2014年春天</h3>
@@ -192,9 +203,6 @@
                         </p>
 
                     </div>
-                </div>
-                <div class="ourstory-bottom">
-                    <img src="./image/index/ourstory2.jpg" alt="">
                     <div>
                         <h3>旅途的開始:2014年春天</h3>
                         <p>
@@ -207,6 +215,7 @@
                             社區活動。4人團隊變成8人，大家一起為了「台北走走」而努力。
                         </p>
                     </div>
+                    <img src="./image/index/ourstory2.jpg" alt="">
                     
                 </div>
 
