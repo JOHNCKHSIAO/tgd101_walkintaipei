@@ -49,13 +49,13 @@
         cursor: pointer;
     }
     
-    .dots{
+    /* .dots{
         width:70px;
         margin:0 auto;
         position:absolute;
         top:580px;
         left:50%; /*還要再調*/
-    }
+    } */
     
     .dot{
         height:8px;

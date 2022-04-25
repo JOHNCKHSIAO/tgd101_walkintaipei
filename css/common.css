@@ -25,6 +25,7 @@ body{
     margin:0 auto;
     display:flex;
     justify-content:flex-end;
+    position:relative;
 }
 .nav-ol li{
     width:100px;
@@ -95,23 +96,65 @@ body{
   cursor: pointer;
 }
 
- /*隱藏的搜尋bar*/
-.hidesearchbar{
-    display:none;
-   
 
-} 
 /*click觸發的搜尋bar*/
 .searchbar{
-    border:1px solid black;
+    /* border:1px solid black; */
+    width:350px;
+    height:50px;
+    position:absolute;
+    top:70px;
+    right:0px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#fff;
+    border-radius:10px;
 
 }
 .searchbar input{
-    /* display:inline-block; */
+  display:inline-block;
+  border:1px solid #E0E0E0;
+  font-family: 'Noto Sans TC', sans-serif,"微軟正黑體";
+  font-size:18px;
+  height:40px;
+  width:240px;
 }
 .searchbar button{
-    /* display:inline-block; */
+    font-family: 'Noto Sans TC', sans-serif,"微軟正黑體"; 
+    height:40px;
+    width:60px;
+    font-size:18px;
+   display:inline-block;
+   border:0;
+   background-color: #fff;
+   cursor: pointer;
 }
+ /*隱藏的搜尋bar*/
+ .hidesearchbar{
+    display:none;
+ }
+
+
+#gototopli{
+    /* display:block; */
+    display:none;
+    position:fixed;
+    bottom:50px;
+    right:0px;
+    z-index: 99;
+    box-sizing: border-box;
+    padding-top: 36px;
+    width:100px;
+    height:100px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #fff;
+    opacity: 60%;
+    cursor: pointer;
+}
+   
+
 
 /*footer*/
 
