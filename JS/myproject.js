@@ -54,7 +54,7 @@
     let titles=document.querySelectorAll(".slidetitle");
     let index=0;
     /* 預設讓他先自動輪播*/
-        // window.setInterval(autoPlaySlide,4000);
+        window.setInterval(autoPlaySlide,4000);
     /* 點擊右邊按鈕會觸發showSlide函式 並且傳入參數(1,0)*/
     turnrightbtn.addEventListener("click",function(){
         showSlide(1,0);

@@ -103,7 +103,8 @@ h1{
     height:450px;
     margin-top: 30px;
     display:flex;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 3px 3px 3px grey;
+    /* transform: translate(0,-20px); */
    
     
 }
@@ -151,15 +152,15 @@ h1{
     margin-top: 30px;
     height:450px;
     width:720px;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 3px 3px 3px grey;
     border-radius: 5px;
-}
+    /* transform: rotate(1deg); */
+} 
 .information{
-    background-color: #fff;
-    width:850px;
+    /* border:1px solid yellow; */
+    width:1125px;
     margin:0 auto;
-    margin-top: 10px;
-    padding:20px;
+    padding-top:1px;
     border-radius: 5px;
     margin-bottom: 40px;
 }
@@ -168,7 +169,7 @@ h1{
     text-align:center;
     margin:0 auto;
     margin-top:60px;
-    margin-bottom:20px;
+    margin-bottom:10px;
     width:154px;
     height:46px;
     border-bottom:5px solid #FBBC04;
@@ -193,32 +194,39 @@ h1{
     width:140px;
     height:48px;
     text-decoration:none;
-    background-color:  #FBBC04;
+    background-color:#FF9105;
     color:white;
     margin:0 auto;
+    margin-top: 20px;
     border-radius:5px;
     font-size: 24px;
     text-align: center;
     line-height: 2;
 }
-.information-top-ol{
+.information-ol{
+    margin:0 auto;
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
-.information-top-ol li{
-   /* border:1px solid red; */
-   width:375px;
+.information-ol li{
+    background-color: #fff;
+   width:350px;
    box-sizing: border-box;
    padding:20px;
+   margin-top: 20px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 1px grey;
+   /* border:1px solid grey; */
 }
-.information-bottom-ol{
+.information-ol>.timeline{
+    width:1125px;
     display:flex;
     justify-content: space-between;
 }
-.information-bottom-ol li{
-    /* border:1px solid red; */
-   width:375px;
-   box-sizing: border-box;
-   padding:20px;
+.timeline div{
+    /* border:1px solid yellow; */
+    width:450px;
 }
+
