@@ -14,8 +14,8 @@
         /* background-image: url('../image/index/slide1.jpg'); */
         background-size: cover;
         position: relative;
-        border:1px solid red;
-        
+        /* border:1px solid red;
+         */
     }
     .slideimg{
         width:100%;
@@ -51,7 +51,7 @@
         clip-path: polygon(38% 0,50% 0, 100% 50%, 50% 100%, 38% 100%, 88% 50%);
         position: absolute;
         top:50%;
-        left:1390px;
+        left:1150px;
         cursor: pointer;
     }
     
@@ -60,8 +60,8 @@
         width:70px;
         margin:0 auto;
         position:absolute;
-        top:580px;
-        left:50%; /*還要再調*/
+        top:480px;
+        left:50%; 
         transform: translate(-50%,0);
     }
 
@@ -120,8 +120,8 @@
         background-color: #fff;
         margin:0 auto;
         margin-top: 50px;
-        padding:20px;
-        /* border:1px solid green; */
+        padding:16px;
+        border:1px solid green;
         border-radius: 5px;
         position:relative;
         display:flex;
@@ -148,38 +148,38 @@
         /*色bar裝飾*/
         content:"";
         display:block;
-        height:100px;
+        height:82px;
         border-left: 5px solid #FBBC04;
         position:absolute;
-        top:97px;
+        top:85px;
         left:21px;  
     }
-    .news-title h2{
+    /* .news-title h2{
        
-        font-size: 36px;
+        font-size: 30px;
         color:black;
-        letter-spacing:10px;
+        letter-spacing:8px;
         
-    }
+    } */
     .news-title-up{
-        font-size: 36px;
+        font-size: 30px;
         color:black;
-        letter-spacing:10px;
-        margin-top:100px;
-        margin-left:40px;
+        letter-spacing:8px;
+        margin-top:83px;
+        margin-left:33px;
         margin-bottom: 15px;
     }
     .news-title-bottom{
-        font-size: 36px;
+        font-size: 30px;
         color:black;
-        letter-spacing:10px;
-        margin-left:40px;
+        letter-spacing:8px;
+        margin-left:33px;
     }
     .news-title>img{
         width:75px;
         transform:rotate(335deg);
         position:absolute;
-        top:200px;
+        top:175px;
         left:20px;
        
     }
@@ -219,7 +219,7 @@
         
     }
     .news-ol p{
-        font-size: 22px;
+        font-size: 18px;
         position:absolute;
         bottom:30px;
         left:35px;
@@ -242,15 +242,14 @@
         position:relative;
     }
     .customized h2{
-        font-size: 36px;
+        font-size: 30px;
         text-align:center;
         margin:0 auto;
         margin-top:40px;
-        margin-bottom:40px;
+        margin-bottom:30px;
         width:128px;
         height:38px;
         border-bottom:5px solid #FBBC04;
-    
         
     }
     
@@ -258,7 +257,7 @@
         margin:40px auto 20px auto;
         text-align: center;
         color:#4A240C;
-        font-size: 24px;
+        font-size: 20px;
     }
     /*客製旅遊的清單*/
     .customized-ol{
@@ -307,14 +306,14 @@
         box-sizing: border-box;
         width:282.5px;
         height:282.5px;
-        padding:20px;
+        padding:16.25px;
         border-radius: 50%;
-        background: linear-gradient(#e66465, #9198e5);
+        background-color: #F5E75C;
     }
     
     .customized-ol h3{
         margin-top: 20px;
-        font-size:24px;
+        font-size:20px;
         text-align:center;
         color:black;
     
@@ -326,8 +325,8 @@
         height:30px;
         display:block;
         position:absolute;
-        top:358px;
-        left:100px;
+        top:300px;
+        left:90px;
     }
     .customized-ol .customh3::before{
          content:"";
@@ -335,8 +334,8 @@
         height:30px;
         display:block;
         position:absolute;
-        top:358px;
-        left:88px; 
+        top:300px;
+        left:78px; 
     }
     
     
@@ -344,7 +343,7 @@
         width:262px;
         text-align: center;
         margin-left: 20px;
-        font-size: 20px;
+        font-size: 16px;
         color:#4A240C;
         margin:0 auto;
         margin-top: 20px;
@@ -358,7 +357,7 @@
         height:50px;
         margin:40px auto 40px auto;
         background-color: #FBBC04;
-        font-size:24px;
+        font-size:20px;
         line-height:2.5;
         text-align: center;
         color:#fff;
@@ -389,13 +388,13 @@
         /* border:1px solid green; */
     }
     .ourclient h2{
-        font-size: 36px;
+        font-size: 30px;
         text-align:center;
         margin:0 auto;
         margin-top:40px;
         margin-bottom:40px;
-        width:190px;
-        height:46px;
+        width:157px;
+        height:40px;
         border-bottom:5px solid #FBBC04;
     }
     
@@ -434,14 +433,14 @@
     
     }
     .ourclient-ol h3{
-        font-size:30px;
+        font-size:24px;
         border-left:5px solid #FBBC04;
         text-align: center;
     
     }
     
     .ourclient-ol p{
-        font-size: 20px;
+        font-size: 16px;
         color:#4A240C;
         width:250px;
         /* margin:0 auto; */
@@ -468,13 +467,13 @@
     
     }
     .ourstory h2{
-        font-size: 36px;
+        font-size: 30px;
         text-align:center;
         margin:0 auto;
         margin-top:100px;
         margin-bottom:40px;
-        width:158px;
-        height:45px;
+        width:160px;
+        height:40px;
         border-bottom:5px solid #FBBC04;
     }
     
@@ -513,14 +512,14 @@
         margin-top: 20px;
     } 
     .ourstory-div h3{
-        font-size: 24px;
+        font-size: 20px;
         border-left:5px solid #FBBC04;
         text-indent: 30px;
         margin-bottom: 10px;
     }
     
     .ourstory-div p{
-        font-size: 18px;
+        font-size: 15px;
         color:#4A240C;
         line-height: 2;
         margin-bottom: 50px;

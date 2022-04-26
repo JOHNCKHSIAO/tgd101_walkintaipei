@@ -150,13 +150,13 @@
     top:97px;
     left:21px;  
 }
-.news-title h2{
+/* .news-title h2{
    
     font-size: 36px;
     color:black;
     letter-spacing:10px;
     
-}
+} */
 .news-title-up{
     font-size: 36px;
     color:black;
@@ -242,7 +242,7 @@
     text-align:center;
     margin:0 auto;
     margin-top:40px;
-    margin-bottom:40px;
+    margin-bottom:30px;
     width:154px;
     height:46px;
     border-bottom:5px solid #FBBC04;

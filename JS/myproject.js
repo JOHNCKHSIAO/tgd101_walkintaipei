@@ -31,7 +31,7 @@
     })
 
     function hideOrAppear(){
-        console.log(document.documentElement.scrollTop);
+        
         if (document.documentElement.scrollTop > 1000){
             gototopli.style.display="block";
            
@@ -58,12 +58,12 @@
     /* 點擊右邊按鈕會觸發showSlide函式 並且傳入參數(1,0)*/
     turnrightbtn.addEventListener("click",function(){
         showSlide(1,0);
-        console.log(`按右鍵之後的index=${index}`);
+        // console.log(`按右鍵之後的index=${index}`);
     });
     /* 點擊左邊按鈕會觸發showSlide函式 並且傳入參數(-1,0)*/
     turnleftbtn.addEventListener("click",function(){
         showSlide(-1,0);
-        console.log(`按左鍵之後的index=${index}`);
+        // console.log(`按左鍵之後的index=${index}`);
     });
     /*把下方的點點輪流綁定-每一個點點都會觸發showSlide函式 並且傳入(0,自己的位置)*/
     for(let i=0;i<dots.length;i++){
